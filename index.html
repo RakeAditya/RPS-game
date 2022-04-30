@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" type="text/css" href="app.css" />
+	</head>
+	<body>
+		<section class="game">
+			<div class="score">
+				<div class="player-score">
+					<h2>Player Score</h2>
+					<p>0</p>
+				</div>
+				<div class="comp-score">
+					<h2>Computer</h2>
+					<p>0</p>
+				</div>
+			</div>
+
+			<div class="intro">
+				<h1>Rock paper & scissors</h1>
+				<input type="button" class="play-btn" value="les Play" />
+			</div>
+
+			<div class="match fadeOut">
+				<h2 class="winner">Choose an option</h2>
+				<div class="hand">
+					<img src="./asset/rock.png" alt="plyr" class="plr-hand" />
+					<img src="./asset/scissors.png" alt="comp" class="comp-hand" />
+				</div>
+				<div class="options">
+					<!-- <input type="button" class="rock btn" value="rock" />
+					<input type="button" class="paper btn" value="paper" />
+					<input type="button" class="scissors btn" value="scissors" /> -->
+					<button class="rock">rock</button>
+					<button class="paper">paper</button>
+					<button class="scissors">scissors</button>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script src="app.js">
+		console.log('hi');
+	</script>
+</html>
